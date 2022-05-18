@@ -4,8 +4,6 @@ namespace ClothingCatalog
 {
     public class Query
     {
-        public Person GetPerson() => new Person("Luke Skywalker");
-
         [UseProjection]
         [UseFiltering]
         //[UseSorting]
