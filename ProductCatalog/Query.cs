@@ -11,14 +11,4 @@ namespace ClothingCatalog
         //[UseSorting]
         public IQueryable<Product> GetProducts(ProductContext context) => context.Products.AsNoTracking();
     }
-
-    public class Person
-    {
-        public Person(string name)
-        {
-            Name = name;
-        }
-
-        public string Name { get; }
-    }
 }
