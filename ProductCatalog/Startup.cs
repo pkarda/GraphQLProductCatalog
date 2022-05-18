@@ -15,7 +15,6 @@ public class Startup : FunctionsStartup
           .AddProjections()
           .AddFiltering()
           .AddSorting()
-
           .RegisterDbContext<ProductContext>(kind: DbContextKind.Synchronized);
     }
 }
